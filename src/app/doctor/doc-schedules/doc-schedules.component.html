@@ -1,0 +1,12 @@
+
+
+<p>Specify the time slot at which u are free : </p><br>
+
+<form #myForm="ngForm" (ngSubmit)="OnDocTimeSubmit()">
+
+<input type="time" [(ngModel)]="doctorFreeTime" name="doctorFreeTime">
+
+</form>
+
+<button type="Submit()">Submit</button>
+
